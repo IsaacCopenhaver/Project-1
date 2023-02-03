@@ -8,41 +8,41 @@ It took 1265 milliseconds to put 50,000,000 elements in the array
 It took 35858 milliseconds to sort the Array
 
 Result 1:
-Fastest Initilization: Array
+Fastest Initialization: Array
 Fastest Sort: Array List
 
 Result 2:
-Fastest Initilization: Array
+Fastest Initialization: Array
 Fastest Sort: Vector
 
 Result 3:
-Fastest Initilization:
-Fastest Sort:
+Fastest Initialization: Array
+Fastest Sort: Vector
 
 Result 4:
-Fastest Initilization:
+Fastest Initialization:
 Fastest Sort:
 
 Result 5:
-Fastest Initilization:
+Fastest Initialization:
 Fastest Sort:
 
 Result 6:
-Fastest Initilization:
+Fastest Initialization
 Fastest Sort:
 
 Result 7:
-Fastest Initilization:
+Fastest Initialization
 Fastest Sort:
 
 Result 8:
-Fastest Initilization:
+Fastest Initialization:
 Fastest Sort:
 
 Result 9:
-Fastest Initilization:
+Fastest Initialization:
 Fastest Sort:
 
 Result 10:
-Fastest Initilization:
+Fastest Initialization:
 Fastest Sort:
