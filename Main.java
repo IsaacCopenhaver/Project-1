@@ -4,7 +4,7 @@ import java.util.Collections;
 import java.util.Vector;
 public class Main{
     public static void main(String [] args){
-        ArrayList<Integer> list = new ArrayList<>(50000000);
+        ArrayList<Integer> list = new ArrayList<>();
         long time1 = System.currentTimeMillis();
         for(int i =0; i<50000000;i++){
             list.add((int)(Math.random() * (Integer.MAX_VALUE + 1)));
@@ -19,7 +19,7 @@ public class Main{
         System.out.println("It took " + calcTime + " ms to sort the Array List;");
         list.clear();
 
-        Vector<Integer> vector = new Vector<>(50000000);
+        Vector<Integer> vector = new Vector<>();
         time1 = System.currentTimeMillis();
         for(int i =0; i<50000000;i++){
             vector.add((int)(Math.random() * (Integer.MAX_VALUE + 1)));
