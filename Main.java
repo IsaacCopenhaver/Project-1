@@ -37,7 +37,7 @@ public class Main{
         Integer[] array = new Integer[50000000];
         time1 = System.currentTimeMillis();
         for(int i =0; i<50000000;i++){
-        array[i] = ((int)(Math.random() * (Integer.MAX_VALUE + 1)));
+            array[i] = ((int)(Math.random() * (Integer.MAX_VALUE + 1)));
         }
         time2=System.currentTimeMillis();
         calcTime = time2 - time1;
