@@ -20,29 +20,31 @@ Fastest Initialization: Array
 Fastest Sort: Vector
 
 Result 4:
-Fastest Initialization:
-Fastest Sort:
+Fastest Initialization: Array
+Fastest Sort: Array List
 
 Result 5:
-Fastest Initialization:
-Fastest Sort:
+Fastest Initialization: Array
+Fastest Sort: Vector
 
 Result 6:
-Fastest Initialization
-Fastest Sort:
+Fastest Initialization: Array
+Fastest Sort: Array
 
 Result 7:
-Fastest Initialization
-Fastest Sort:
+Fastest Initialization: Array
+Fastest Sort: Vector
 
 Result 8:
-Fastest Initialization:
-Fastest Sort:
+Fastest Initialization: Array
+Fastest Sort: Vector
 
 Result 9:
-Fastest Initialization:
-Fastest Sort:
+Fastest Initialization: Array
+Fastest Sort: Array
 
 Result 10:
-Fastest Initialization:
-Fastest Sort:
+Fastest Initialization: Array
+Fastest Sort: Array List
+
+Looking through the results we can see that the Array tends to initialize with values the quickest of the 3, likely due to declaring the size of it from the start. The vector usually fell behind the array, initializing quicker than the Array List. When it came to sorting, the Vectors and Array Lists usually came out neck and neck (with the Vector usually slightly ahead) and the array usually falling behind. Just as a test I also ran a few iterations of my code with sizes declared in all of the collection, and saw that they all usually fell within a 100ms cushion of each other.
